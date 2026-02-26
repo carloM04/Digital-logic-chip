@@ -14,8 +14,8 @@ Questo progetto implementa un modulo hardware in VHDL che applica un filtro diff
   - `relaziona_finale`: Relazione finale originale.
 
 ### Come Eseguire
-1. Aprire Xilinx Vivado (2024.1 o successivo).
+1. Aprire Xilinx Vivado (Qualunque verione dovrebbe funzionare).
 2. Creare un nuovo progetto per Artix-7 `xc7a12ticsg325-1L`.
-3. Aggiungere i file VHDL dalla cartella `code/`.
+3. Aggiungere il file `main.vhd`.
 4. Aggiungere il file di vincoli `constr.xdc` (se applicabile).
-5. Eseguire le simulazioni comportamentali e funzionali post-sintesi utilizzando le testbench fornite.
+5. Eseguire le simulazioni comportamentali e funzionali post-sintesi utilizzando i testbench forniti.
