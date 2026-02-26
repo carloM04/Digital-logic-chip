@@ -17,4 +17,4 @@ Questo progetto implementa un modulo hardware in VHDL che applica un filtro diff
 1. Aprire Xilinx Vivado (Qualunque verione dovrebbe funzionare).
 2. Creare un nuovo progetto per Artix-7 `xc7a12ticsg325-1L`.
 3. Aggiungere il file `main.vhd`.
-4. Eseguire le simulazioni comportamentali e funzionali post-sintesi utilizzando i testbench forniti.
+4. Eseguire le simulazioni comportamentali e funzionali post-sintesi utilizzando i testbench forniti per verificare la correttezza del      componente progettato.
