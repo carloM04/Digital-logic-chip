@@ -3,11 +3,6 @@ Questo progetto implementa un modulo hardware in VHDL che applica un filtro diff
 
 **Importante:** Una versione di Xilinx Vivado dal 2016 in poi risulta necessaria per poter eseguire il progetto.
 
-### Caratteristiche
-- **Architettura Strutturale:** Sviluppato senza FSM utilizzando un approccio strutturale stratificato per la massima trasparenza hardware.
-- **Alte Prestazioni:** Ottimizzato per Xilinx Artix-7, ottenendo un Worst Negative Slack (WNS) di 13.673 ns su un clock di 20ns.
-- **Precisione:** Implementa la correzione degli errori per gli shift di numeri negativi per mantenere l'accuratezza matematica.
-
 ### Struttura delle Cartelle
 - `it_version/`: File originali del progetto in italiano.
   - `main.vhd`: File sorgente VHDL.
@@ -20,3 +15,5 @@ Questo progetto implementa un modulo hardware in VHDL che applica un filtro diff
 2. Creare un nuovo progetto per Artix-7 `xc7a12ticsg325-1L`.
 3. Aggiungere il file `main.vhd`.
 4. Eseguire le simulazioni comportamentali e funzionali post-sintesi utilizzando i testbench forniti per verificare la correttezza del      componente progettato.
+
+**Importante:** notare che il progetto è stato valutato su test creati e noti solo ai professori. I test qui presenti sono stati creati da me, con lo scopo di coprire più casistiche possibile e autovalutarmi prima della consegna.
