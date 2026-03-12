@@ -1,5 +1,6 @@
 ### Panoramica
-Questo progetto implementa un modulo hardware in VHDL che applica un filtro differenziale di 3° o 5° ordine a una sequenza di byte memorizzati in memoria. Il sistema gestisce dati in complemento a 2, esegue la normalizzazione tramite approssimazioni basate su shift e assicura che i risultati siano saturati nell'intervallo a 8 bit [-128, 127]. Maggiori dettagli presenti nel file di specifica.
+Questo progetto implementa un modulo hardware in VHDL che applica un filtro differenziale di 3° o 5° ordine a una sequenza di byte memorizzati in memoria. Il sistema gestisce dati in complemento a 2, esegue la normalizzazione tramite approssimazioni basate su shift e assicura che i risultati siano saturati nell'intervallo a 8 bit [-128, 127]. Maggiori dettagli presenti nel file di specifica..
+**Importante:** Una versione di Xilinx Vivado dal 2016 in poi risulta necessaria per poter eseguire il progetto
 
 ### Caratteristiche
 - **Architettura Strutturale:** Sviluppato senza FSM utilizzando un approccio strutturale stratificato per la massima trasparenza hardware.
