@@ -4,10 +4,11 @@ Questo progetto implementa un modulo hardware in VHDL che applica un filtro diff
 **Importante:** Una versione di Xilinx Vivado dal 2016 in poi risulta necessaria per poter eseguire il progetto.
 
 ### Struttura delle Cartelle
-- `main.vhd`: File sorgente VHDL.
 - `test_bench/`: Files testbench VHDL.
 - `specifica`: Specifica originale del progetto.
+- `main.vhd`: File sorgente VHDL.
 - `relaziona_finale`: Relazione finale originale.
+- `ripasso_vhdl.pdf`: File per ripassare il linguaggio VHDL.
 
 ### Come Eseguire
 1. Aprire Xilinx Vivado (Qualunque verione dovrebbe funzionare).
